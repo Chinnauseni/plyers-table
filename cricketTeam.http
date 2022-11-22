@@ -1,12 +1,12 @@
 / API 1
 // get all the player details from the data base 
-GET http://localhost:3001/players/
+GET http://localhost:3000/players
 ###
 // API 2
 // post the new player into data base. 
 //Player is auto incremented
 // create a new player by chnaging the details below and run
-POST http://localhost:3001/players/
+POST http://localhost:3000/players/
 Content-Type: application/json
 
 {
@@ -19,13 +19,13 @@ Content-Type: application/json
 // get player details based on player ID 
 // change the player ID(i.e 14 in example ) to check for remaining players 
 // API 3
-GET http://localhost:3001/players/13/
+GET http://localhost:3000/players/13/
 
 
 ###
 // update the player details based on player ID given 
 //API 4
-PUT http://localhost:3001/players/14/
+PUT http://localhost:3000/players/14/
 Content-Type: application/json
 
 {
@@ -37,6 +37,6 @@ Content-Type: application/json
 ### 
 // Delete the player details by the given player Id 
 // API 5 
-DELETE http://localhost:3001/players/12/
+DELETE http://localhost:3000/players/12
 
 
